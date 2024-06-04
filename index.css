@@ -1,0 +1,459 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(2, 2, 12);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin-inline: 22px;
+    font-size: 22px;
+}
+
+ul li a:hover {
+    color: rgb(245, 92, 117);
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.logo span {
+    color: rgb(245, 92, 117);
+}
+
+.main {
+    margin-top: 111px;
+    display: flex;
+    justify-content: center;
+}
+
+.main h1 {
+    font-size: 50px;
+}
+
+.main h3 {
+    font-size: 22px;
+}
+
+.main p {
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.main button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(245, 92, 117);
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+}
+
+.mainText i {
+    margin-top: 15px;
+    height: 20px;
+    width: 20px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.head {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.head span {
+    color: rgb(245, 92, 117);
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.about p {
+    margin-top: 22px;
+    font-size: 20px;
+}
+
+.about h1 {
+    margin-top: 2px;
+    font-size: 40px;
+}
+
+.aboutText h2 {
+    margin-top: 2px;
+}
+
+.aboutText p {
+    color: rgb(245, 92, 117);
+}
+
+.aboutText span {
+    color: white;
+}
+
+#skills {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#skills h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+#skills h1 span {
+    color: rgb(245, 92, 117);
+}
+
+.skill img {
+    height: 60px;
+    width: 60px;
+}
+
+#project {
+    align-items: center;
+    margin-top: 90px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.workCard {
+    width: 400px;
+    height: 400%;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2px;
+    margin-inline: 22px;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 5px;
+
+}
+
+.workCard p {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.workCard img {
+    gap: 2px;
+    margin-top: 10px;
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+    margin-inline: 22px;
+    padding: 22px;
+
+}
+
+.workCard a {
+    padding: 5px 22px;
+    background-color: rgb(245, 92, 117);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+}
+
+.work {
+    margin-top: 50px;
+    gap: 2px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    margin-top: 11px;
+    font-size: 22px;
+}
+
+.sub-title span {
+    color: rgb(245, 92, 117);
+}
+
+.sub-title {
+    justify-content: center;
+}
+
+#work {
+    text-align: center;
+    margin-top: 110px;
+}
+
+#work span {
+    color: rgb(245, 92, 117);
+    ;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-left: 10%;
+    margin-top: 90px;
+}
+
+.box-container img {
+    height: 200px;
+    width: 200px;
+}
+
+.box-container .box {
+    flex: 0 0 0rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    border: 0.5rem solid rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 2rem;
+}
+
+.box-container .box p {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.box-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 90px;
+    margin-left: 10%;
+}
+
+.box-container1 img {
+    height: 200px;
+    width: 200px;
+}
+
+.box-container1 .box {
+    width: 300px;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    border: 0.5rem solid rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 2rem;
+}
+
+.box-container1 .box p {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.box-container1 .box a {
+    padding: 5px 22px;
+    background-color: rgb(245, 92, 117);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+}
+
+#contact {
+    margin-top: 110px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-inline: 10px;
+    margin-right: 50px;
+}
+
+.title {
+    margin-top: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-inline: 10px;
+    margin-right: 50px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    margin-inline: 10px;
+    padding: 20px;
+}
+
+.title i {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgb(245, 92, 117);
+}
+
+#contact1 {
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact2 {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#contact3 {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.title p {
+    margin-inline: 50px;
+    margin-top: 10px;
+}
+
+.logo i {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .main {
+        display: block;
+        text-align: center;
+        margin-top: 155px;
+    }
+}
+
+#bar {
+    display: none;
+}
+
+/* Bar */
+
+@media screen and (max-width:800px) {
+    ul {
+        display: none;
+    }
+
+    #bar {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.showData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 23px;
+    background-color: rgb(60, 59, 59);
+    gap: 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 75px;
+    right: 3%;
+}
+
+
+/* Home */
+
+@media screen and (max-width:550px) {
+    .mainText h1 {
+        font-size: 36px;
+    }
+
+    .mainText h3 {
+        font-size: 21px;
+    }
+
+    .mainText a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .title p {
+        display: block;
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .title i {
+        display: block;
+        font-size: 25px;
+    }
+
+    #contact1 {
+        margin-left: 10px;
+    }
+
+    #contact1 i {
+        margin-right: 20px;
+    }
+
+    #contact1 p {
+        margin-left: 10px;
+    }
+
+    #contact2 i {
+        margin-left: 23px;
+    }
+
+    #contact2 p {
+        margin-right: 20px;
+    }
+
+    #contact3 {
+        margin-left: 10px;
+    }
+
+    #contact3 i {
+        margin-left: 10px;
+    }
+
+    #contact3 p {
+        margin-right: 20px;
+    }
+}
