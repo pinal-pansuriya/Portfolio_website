@@ -297,6 +297,16 @@ ul li a:hover {
     position: relative;
     top: 11px;
 }
+.box-container .box a {
+    padding: 5px 22px;
+    background-color: rgb(245, 92, 117);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+    
+}
 
 #contact {
     margin-top: 110px;
